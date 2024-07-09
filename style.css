@@ -59,6 +59,10 @@ h1 span {
   border-radius: 5px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
 }
+/* Pour l'accessibilié */
+.inputs-container input:focus {
+  outline: 1px solid hsl(0, 0%, 20%);
+}
 
 .input-group:nth-child(2) {
   margin-inline-start: 20px;
