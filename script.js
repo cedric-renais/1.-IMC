@@ -57,7 +57,7 @@ const displayResult = document.querySelector('.bmi-result');
 function handleError() {
   // Affiche un message d'erreur et réinitialise la couleur
   displayBMI.textContent = 'Whops!';
-  displayBMI.style.color = 'ingerit';
+  displayBMI.style.color = 'inherit';
   displayResult.textContent = 'Veuillez entrer votre taille et votre poids.';
 }
 
